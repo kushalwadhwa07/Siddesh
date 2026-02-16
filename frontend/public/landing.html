@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Big Wheels Car Rentals - Self Drive Car Rentals in Goa starting from ₹1000/day. Premium, well-maintained cars delivered anywhere in Goa. Book now!">
+    <meta name="keywords" content="self drive car rental goa, car rental goa, rent a car goa, goa car hire, self drive goa, cheap car rental goa">
+    <meta name="author" content="Big Wheels Car Rentals">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Big Wheels Car Rentals - Self Drive Cars in Goa from ₹1000/day">
+    <meta property="og:description" content="Premium self-drive car rentals in Goa. Well-maintained cars, instant confirmation, airport delivery available.">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="en_IN">
+    
+    <title>Big Wheels Car Rentals | Self Drive Car Rentals in Goa from ₹1000/Day</title>
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header class="header" id="header" data-testid="header">
+        <div class="container header-inner">
+            <a href="#" class="logo" data-testid="logo">
+                <i class="fas fa-car-side"></i>
+                <span>Big Wheels</span>
+            </a>
+            <nav class="nav-desktop" data-testid="nav-desktop">
+                <a href="#cars" class="nav-link">Our Cars</a>
+                <a href="#why-us" class="nav-link">Why Us</a>
+                <a href="#locations" class="nav-link">Locations</a>
+                <a href="#reviews" class="nav-link">Reviews</a>
+            </nav>
+            <div class="header-cta">
+                <a href="tel:+917020776990" class="btn btn-outline btn-sm" data-testid="header-call-btn">
+                    <i class="fas fa-phone"></i>
+                    <span class="desktop-only">Call Now</span>
+                </a>
+                <a href="https://wa.me/917020776990?text=Hi%20Big%20Wheels%2C%20I%20want%20to%20rent%20a%20car%20in%20Goa." class="btn btn-whatsapp btn-sm" data-testid="header-whatsapp-btn">
+                    <i class="fab fa-whatsapp"></i>
+                    <span class="desktop-only">WhatsApp</span>
+                </a>
+            </div>
+            <button class="mobile-menu-btn" id="mobile-menu-btn" data-testid="mobile-menu-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div class="mobile-menu" id="mobile-menu" data-testid="mobile-menu">
+            <a href="#cars" class="mobile-nav-link">Our Cars</a>
+            <a href="#why-us" class="mobile-nav-link">Why Us</a>
+            <a href="#locations" class="mobile-nav-link">Locations</a>
+            <a href="#reviews" class="mobile-nav-link">Reviews</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero" data-testid="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title" data-testid="hero-title">Self Drive Car Rentals in Goa – Starting From <span class="highlight">₹1000/Day</span></h1>
+                <p class="hero-subtitle">Premium, Well-Maintained Cars Delivered Anywhere in Goa</p>
+                <div class="hero-cta">
+                    <a href="#cars" class="btn btn-whatsapp btn-lg" data-testid="hero-book-btn">
+                        <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+917020776990" class="btn btn-outline-white btn-lg" data-testid="hero-call-btn">
+                        <i class="fas fa-phone"></i> Call Now
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- Trust Badges -->
+        <div class="trust-badges" data-testid="trust-badges">
+            <div class="container">
+                <div class="badges-grid">
+                    <div class="badge-item">
+                        <i class="fas fa-calendar-check"></i>
+                        <span>Minimum 2 Days Booking</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Instant Confirmation</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-plane-arrival"></i>
+                        <span>Airport Delivery Available</span>
+                    </div>
+                    <div class="badge-item">
+                        <i class="fas fa-tag"></i>
+                        <span>Best Price Guarantee</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Urgency Banner -->
+    <div class="urgency-banner" data-testid="urgency-banner">
+        <div class="container">
+            <i class="fas fa-fire"></i>
+            <span>Limited Availability During Season – Book Now!</span>
+        </div>
+    </div>
+
+    <!-- Car Listing Section -->
+    <section class="cars-section" id="cars" data-testid="cars-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Our Fleet</h2>
+                <p class="section-subtitle">Choose from our well-maintained cars – sorted from lowest to highest price</p>
+            </div>
+            <div class="cars-grid" data-testid="cars-grid">
+                
+                <!-- Car 1: WagonR Manual -->
+                <div class="car-card" data-testid="car-card-wagonr-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1605731939993-01c44a0fccba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMGhhdGNoYmFjayUyMGNhciUyMG9uJTIwcm9hZHxlbnwwfHx8fDE3NzEyNTI1OTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki WagonR" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki WagonR (Manual)</h3>
+                        <div class="car-price">₹1000 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 4 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 34 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20WagonR%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="wagonr-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="wagonr-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 2: Swift Manual -->
+                <div class="car-card" data-testid="car-card-swift-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1767949374162-5cbb31071b8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxjb21wYWN0JTIwaGF0Y2hiYWNrJTIwY2FyJTIwd2hpdGV8ZW58MHx8fHwxNzcxMjUyNjU5fDA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Swift" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Swift (Manual)</h3>
+                        <div class="car-price">₹1200 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 37 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Swift%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="swift-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="swift-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 3: Baleno Manual -->
+                <div class="car-card" data-testid="car-card-baleno-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1767972885672-d469ccec0bd2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxzZWRhbiUyMGNhciUyMHNpbHZlciUyMG1vZGVybnxlbnwwfHx8fDE3NzEyNTI2NjB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Baleno" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Baleno (Manual)</h3>
+                        <div class="car-price">₹1300 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 40 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Baleno%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="baleno-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="baleno-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 4: Dzire Manual -->
+                <div class="car-card" data-testid="car-card-dzire-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1605731939993-01c44a0fccba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMGhhdGNoYmFjayUyMGNhciUyMG9uJTIwcm9hZHxlbnwwfHx8fDE3NzEyNTI1OTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Dzire" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Dzire (Manual)</h3>
+                        <div class="car-price">₹1400 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 4 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 40 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Dzire%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="dzire-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="dzire-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 5: Swift Automatic -->
+                <div class="car-card" data-testid="car-card-swift-automatic">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1767949374162-5cbb31071b8f?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1OTN8MHwxfHNlYXJjaHwxfHxjb21wYWN0JTIwaGF0Y2hiYWNrJTIwY2FyJTIwd2hpdGV8ZW58MHx8fHwxNzcxMjUyNjU5fDA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Swift Automatic" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-auto">Automatic</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Swift (Automatic)</h3>
+                        <div class="car-price">₹1500 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Automatic</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 37 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Swift%20(Automatic)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="swift-automatic-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="swift-automatic-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 6: Baleno Automatic -->
+                <div class="car-card" data-testid="car-card-baleno-automatic">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1767972885672-d469ccec0bd2?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NDh8MHwxfHNlYXJjaHwxfHxzZWRhbiUyMGNhciUyMHNpbHZlciUyMG1vZGVybnxlbnwwfHx8fDE3NzEyNTI2NjB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Baleno Automatic" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-auto">Automatic</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Baleno (Automatic)</h3>
+                        <div class="car-price">₹1600 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Automatic</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 40 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Baleno%20(Automatic)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="baleno-automatic-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="baleno-automatic-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 7: Ertiga Manual -->
+                <div class="car-card" data-testid="car-card-ertiga-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGElMjB3aGl0ZXxlbnwwfHx8fDE3NzEyNTI2NTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Ertiga" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-seats">7 Seater</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Ertiga (Manual)</h3>
+                        <div class="car-price">₹2000 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 7 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 45 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Ertiga%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="ertiga-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="ertiga-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 8: Ertiga Automatic -->
+                <div class="car-card" data-testid="car-card-ertiga-automatic">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGElMjB3aGl0ZXxlbnwwfHx8fDE3NzEyNTI2NTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Maruti Suzuki Ertiga Automatic" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-auto">Automatic</span>
+                        <span class="car-badge-seats">7 Seater</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Maruti Suzuki Ertiga (Automatic)</h3>
+                        <div class="car-price">₹2500 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Automatic</div>
+                            <div class="spec"><i class="fas fa-users"></i> 7 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 45 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Maruti%20Suzuki%20Ertiga%20(Automatic)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="ertiga-automatic-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="ertiga-automatic-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 9: Innova Crysta Manual -->
+                <div class="car-card" data-testid="car-card-innova-manual">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGElMjB3aGl0ZXxlbnwwfHx8fDE3NzEyNTI2NTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Toyota Innova Crysta" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-seats">7 Seater</span>
+                        <span class="car-badge-premium">Premium</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Toyota Innova Crysta (Manual)</h3>
+                        <div class="car-price">₹2600 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 7 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 4 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Diesel</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 50 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Toyota%20Innova%20Crysta%20(Manual)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="innova-manual-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="innova-manual-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 10: Hyundai Creta -->
+                <div class="car-card" data-testid="car-card-creta">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1758411897897-970d1cacccaf?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwxfHxTVVYlMjBjcm9zc292ZXIlMjBtb2Rlcm4lMjB3aGl0ZXxlbnwwfHx8fDE3NzEyNTI2NjF8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Hyundai Creta" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-auto">Automatic</span>
+                        <span class="car-badge-premium">Sunroof</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Hyundai Creta – Automatic with Sunroof</h3>
+                        <div class="car-price">₹3000 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Automatic</div>
+                            <div class="spec"><i class="fas fa-users"></i> 5 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 3 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Petrol</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 50 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Hyundai%20Creta%20Automatic%20with%20Sunroof%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="creta-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="creta-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 11: Innova Crysta Automatic -->
+                <div class="car-card" data-testid="car-card-innova-automatic">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1748215210939-ad8b6c8c086d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwxfHxUb3lvdGElMjBJbm5vdmElMjBDcnlzdGElMjB3aGl0ZXxlbnwwfHx8fDE3NzEyNTI2NTB8MA&ixlib=rb-4.1.0&q=85&w=400" alt="Toyota Innova Crysta Automatic" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-auto">Automatic</span>
+                        <span class="car-badge-seats">7 Seater</span>
+                        <span class="car-badge-premium">Premium</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Toyota Innova Crysta (Automatic)</h3>
+                        <div class="car-price">₹3000 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Automatic</div>
+                            <div class="spec"><i class="fas fa-users"></i> 7 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 4 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Diesel</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 50 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Toyota%20Innova%20Crysta%20(Automatic)%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="innova-automatic-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="innova-automatic-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 12: Mahindra Thar Hard Top -->
+                <div class="car-card" data-testid="car-card-thar-hardtop">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1710225358761-4f5891df657d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxNYWhpbmRyYSUyMFRoYXIlMjBqZWVwfGVufDB8fHx8MTc3MTI1MjY1OHww&ixlib=rb-4.1.0&q=85&w=400" alt="Mahindra Thar Hard Top" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-adventure">Adventure</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Mahindra Thar (Manual) Hard Top</h3>
+                        <div class="car-price">₹3000 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 4 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 2 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Diesel</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 50 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Mahindra%20Thar%20(Manual)%20Hard%20Top%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="thar-hardtop-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="thar-hardtop-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Car 13: Mahindra Thar Soft Top -->
+                <div class="car-card" data-testid="car-card-thar-softtop">
+                    <div class="car-image">
+                        <img src="https://images.unsplash.com/photo-1710225358761-4f5891df657d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzMzJ8MHwxfHNlYXJjaHwxfHxNYWhpbmRyYSUyMFRoYXIlMjBqZWVwfGVufDB8fHx8MTc3MTI1MjY1OHww&ixlib=rb-4.1.0&q=85&w=400" alt="Mahindra Thar Soft Top" loading="lazy">
+                        <span class="car-badge">Minimum 2 Days</span>
+                        <span class="car-badge-adventure">Soft Top</span>
+                    </div>
+                    <div class="car-details">
+                        <h3 class="car-name">Mahindra Thar (Manual) Soft Top</h3>
+                        <div class="car-price">₹3500 <span>/ Day</span></div>
+                        <div class="car-specs">
+                            <div class="spec"><i class="fas fa-cog"></i> Manual</div>
+                            <div class="spec"><i class="fas fa-users"></i> 4 Seats</div>
+                            <div class="spec"><i class="fas fa-suitcase"></i> 2 Luggage</div>
+                            <div class="spec"><i class="fas fa-gas-pump"></i> Diesel</div>
+                            <div class="spec"><i class="fas fa-tint"></i> 50 Ltr</div>
+                        </div>
+                        <div class="car-actions">
+                            <a href="https://wa.me/917020776990?text=I%20want%20to%20book%20Mahindra%20Thar%20(Manual)%20Soft%20Top%20in%20Goa%20for%20rent." class="btn btn-whatsapp btn-full" data-testid="thar-softtop-whatsapp-btn">
+                                <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+917020776990" class="btn btn-outline btn-full" data-testid="thar-softtop-call-btn">
+                                <i class="fas fa-phone"></i> Call Now
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="why-us-section" id="why-us" data-testid="why-us-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Big Wheels?</h2>
+                <p class="section-subtitle">We make your Goa trip hassle-free with our premium services</p>
+            </div>
+            <div class="features-grid">
+                <div class="feature-card" data-testid="feature-well-maintained">
+                    <div class="feature-icon">
+                        <i class="fas fa-wrench"></i>
+                    </div>
+                    <h3 class="feature-title">Well-Maintained Cars</h3>
+                    <p class="feature-desc">Our fleet undergoes regular maintenance checks to guarantee reliability and safety.</p>
+                </div>
+                <div class="feature-card" data-testid="feature-best-price">
+                    <div class="feature-icon">
+                        <i class="fas fa-tag"></i>
+                    </div>
+                    <h3 class="feature-title">Best Price Guarantee</h3>
+                    <p class="feature-desc">Found a better deal? Our best price guarantee ensures you won't pay more.</p>
+                </div>
+                <div class="feature-card" data-testid="feature-quick-delivery">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3 class="feature-title">Quick Delivery of Cars</h3>
+                    <p class="feature-desc">We ensure timely delivery anywhere in Goa.</p>
+                </div>
+                <div class="feature-card" data-testid="feature-pickup-drop">
+                    <div class="feature-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Drop & Pickup Services</h3>
+                    <p class="feature-desc">Airport, Railway Stations & All Locations in North Goa</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service Areas Section -->
+    <section class="locations-section" id="locations" data-testid="locations-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">We Deliver Anywhere in Goa</h2>
+                <p class="section-subtitle">Pick up and drop off at your convenience</p>
+            </div>
+            <div class="locations-grid">
+                <div class="location-tag" data-testid="location-goa-airport">
+                    <i class="fas fa-plane"></i> Goa Airport
+                </div>
+                <div class="location-tag" data-testid="location-mopa-airport">
+                    <i class="fas fa-plane"></i> Mopa Airport
+                </div>
+                <div class="location-tag" data-testid="location-madgaon">
+                    <i class="fas fa-train"></i> Madgaon Railway Station
+                </div>
+                <div class="location-tag" data-testid="location-thivim">
+                    <i class="fas fa-train"></i> Thivim Railway Station
+                </div>
+                <div class="location-tag" data-testid="location-calangute">
+                    <i class="fas fa-umbrella-beach"></i> Calangute
+                </div>
+                <div class="location-tag" data-testid="location-baga">
+                    <i class="fas fa-umbrella-beach"></i> Baga
+                </div>
+                <div class="location-tag" data-testid="location-candolim">
+                    <i class="fas fa-umbrella-beach"></i> Candolim
+                </div>
+                <div class="location-tag" data-testid="location-anjuna">
+                    <i class="fas fa-umbrella-beach"></i> Anjuna
+                </div>
+                <div class="location-tag" data-testid="location-vagator">
+                    <i class="fas fa-umbrella-beach"></i> Vagator
+                </div>
+                <div class="location-tag" data-testid="location-panjim">
+                    <i class="fas fa-city"></i> Panjim
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section" id="reviews" data-testid="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">What Our Customers Say</h2>
+                <p class="section-subtitle">Trusted by thousands of happy travelers</p>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card" data-testid="testimonial-1">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Amazing service! The car was spotless and delivered right to our hotel in Calangute. Made exploring Goa so much easier. Will definitely book again!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1758521961632-24056f441db8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85&w=100" alt="Rahul M." loading="lazy">
+                        <div>
+                            <strong>Rahul M.</strong>
+                            <span>Mumbai</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-testid="testimonial-2">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Rented the Ertiga for our family trip. Perfect condition, great mileage, and the pickup from Mopa airport was seamless. Highly recommended!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1602003355524-184dbe828b18?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHw0fHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85&w=100" alt="Priya S." loading="lazy">
+                        <div>
+                            <strong>Priya S.</strong>
+                            <span>Bangalore</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card" data-testid="testimonial-3">
+                    <div class="testimonial-stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Best car rental in Goa! Booked the Thar for beach hopping – it was an absolute blast. Great prices and super responsive on WhatsApp."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1561065475-b0dc9f889ee7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85&w=100" alt="Arjun K." loading="lazy">
+                        <div>
+                            <strong>Arjun K.</strong>
+                            <span>Delhi</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="cta-section" data-testid="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Book Your Self Drive Car in Goa Today</h2>
+                <p class="cta-subtitle">Start your Goa adventure with Big Wheels Car Rentals</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/917020776990?text=Hi%20Big%20Wheels%2C%20I%20want%20to%20rent%20a%20car%20in%20Goa." class="btn btn-whatsapp btn-xl" data-testid="cta-whatsapp-btn">
+                        <i class="fab fa-whatsapp"></i> Book on WhatsApp
+                    </a>
+                    <a href="tel:+917020776990" class="btn btn-white btn-xl" data-testid="cta-call-btn">
+                        <i class="fas fa-phone"></i> Call +91 7020776990
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" data-testid="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#" class="logo">
+                        <i class="fas fa-car-side"></i>
+                        <span>Big Wheels</span>
+                    </a>
+                    <p>Premium self-drive car rentals in Goa. Explore the beautiful beaches and scenic roads at your own pace.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#cars">Our Cars</a>
+                    <a href="#why-us">Why Us</a>
+                    <a href="#locations">Locations</a>
+                    <a href="#reviews">Reviews</a>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contact Us</h4>
+                    <a href="tel:+917020776990"><i class="fas fa-phone"></i> +91 7020776990</a>
+                    <a href="https://wa.me/917020776990"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+                    <p><i class="fas fa-map-marker-alt"></i> Goa, India</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Big Wheels Car Rentals. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/917020776990?text=Hi%20Big%20Wheels%2C%20I%20want%20to%20rent%20a%20car%20in%20Goa." class="floating-whatsapp" data-testid="floating-whatsapp-btn" aria-label="Chat on WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
