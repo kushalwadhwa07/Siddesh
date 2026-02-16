@@ -1,0 +1,164 @@
+{
+  "identity": {
+    "name": "E1",
+    "tone": "Anti-AI, Bold, High-Conversion",
+    "mission": "Create a car rental landing page that feels like a premium travel magazine, not a template."
+  },
+  "project_context": {
+    "name": "Big Wheels Car Rentals",
+    "type": "Landing Page",
+    "target_audience": "Tourists in Goa (Mobile-first)",
+    "primary_goal": "WhatsApp Bookings & Calls"
+  },
+  "theme": {
+    "mode": "light",
+    "philosophy": "Tropical Modernism. Clean white surfaces, lush green accents, and sharp typography."
+  },
+  "typography": {
+    "font_family": {
+      "headings": "Outfit, sans-serif",
+      "body": "Plus Jakarta Sans, sans-serif"
+    },
+    "scale": {
+      "h1": "text-4xl md:text-6xl font-bold tracking-tight",
+      "h2": "text-3xl md:text-5xl font-semibold tracking-tight",
+      "h3": "text-2xl md:text-3xl font-semibold",
+      "body": "text-base md:text-lg leading-relaxed text-gray-600",
+      "caption": "text-sm font-medium tracking-wide uppercase text-gray-500"
+    },
+    "installation": "Import from Google Fonts: https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+  },
+  "colors": {
+    "palette": {
+      "background": {
+        "primary": "#FFFFFF",
+        "secondary": "#F8FAFC",
+        "tertiary": "#F1F5F9"
+      },
+      "text": {
+        "primary": "#111827",
+        "secondary": "#4B5563",
+        "muted": "#9CA3AF",
+        "inverse": "#FFFFFF"
+      },
+      "brand": {
+        "primary": "#10B981",
+        "primary_hover": "#059669",
+        "accent": "#F59E0B"
+      },
+      "semantic": {
+        "success": "#10B981",
+        "error": "#EF4444",
+        "warning": "#F59E0B",
+        "info": "#3B82F6"
+      }
+    },
+    "usage_rules": {
+      "gradients": "Use subtle gradients only on buttons or specific hero overlays. No full-screen gradients.",
+      "shadows": "soft-shadow-lg: 0 10px 40px -10px rgba(0,0,0,0.08)",
+      "whatsapp_button": "bg-[#25D366] hover:bg-[#128C7E] text-white"
+    }
+  },
+  "spacing_layout": {
+    "container": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8",
+    "section_padding": "py-16 md:py-24",
+    "grid_system": {
+      "cars": "grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 md:gap-8",
+      "features": "grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12"
+    },
+    "border_radius": {
+      "cards": "rounded-2xl",
+      "buttons": "rounded-full"
+    }
+  },
+  "components": {
+    "header": {
+      "style": "Sticky, Glassmorphism (white/90 backdrop-blur-md)",
+      "elements": ["Logo (Left)", "Nav Links (Hidden Mobile/Visible Desktop)", "Call CTA (Right)"]
+    },
+    "hero": {
+      "layout": "Split (Text Left, Image Right) or Centered with Background Overlay",
+      "content": ["Headline: 'Explore Goa on Your Terms'", "Subhead: 'Premium Self-Drive Cars from ₹999/day'", "Primary CTA: 'Book via WhatsApp'", "Trust Badges: 'Zero Deposit Options', '24/7 Support'"]
+    },
+    "floating_whatsapp": {
+      "position": "fixed bottom-6 right-6 z-50",
+      "style": "w-14 h-14 md:w-16 md:h-16 rounded-full shadow-xl flex items-center justify-center bg-[#25D366] hover:scale-110 transition-transform duration-300",
+      "icon": "MessageCircle (Lucide)"
+    },
+    "car_card": {
+      "style": "Minimalist, White Bg, Light Shadow Hover",
+      "elements": ["Image (Top, Aspect 4:3)", "Title (Bold)", "Specs (Seats, Fuel, Trans)", "Price (Highlighted)", "Book Button (Full Width)"]
+    },
+    "testimonials": {
+      "style": "Carousel or Masonry Grid",
+      "card_style": "bg-gray-50 p-6 rounded-xl border border-gray-100"
+    }
+  },
+  "assets": {
+    "icons": "Use 'lucide-react'. Examples: Car, MapPin, Phone, MessageCircle, Star, ShieldCheck, Zap, Calendar.",
+    "images": {
+      "hero_bg": "https://images.unsplash.com/photo-1595392004747-3d9b64a4b013?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwzfHxqZWVwJTIwd3JhbmdsZXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85",
+      "cars": [
+        {
+          "category": "Hatchback (Swift, WagonR, Baleno, i20)",
+          "url": "https://images.unsplash.com/photo-1605731939993-01c44a0fccba?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NTJ8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMGhhdGNoYmFjayUyMGNhciUyMG9uJTIwcm9hZHxlbnwwfHx8fDE3NzEyNTI1OTB8MA&ixlib=rb-4.1.0&q=85",
+          "alt": "Compact Hatchback"
+        },
+        {
+          "category": "SUV (Creta, Seltos, Brezza)",
+          "url": "https://images.unsplash.com/photo-1640021042546-2a1b900f324b?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwyfHxqZWVwJTIwd3JhbmdsZXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85",
+          "alt": "Premium SUV"
+        },
+        {
+          "category": "Jeep (Thar, Open Jeep)",
+          "url": "https://images.unsplash.com/photo-1506015391300-4802dc74de2e?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1MDV8MHwxfHNlYXJjaHwxfHxqZWVwJTIwd3JhbmdsZXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85",
+          "alt": "Adventure Jeep"
+        },
+        {
+          "category": "Sedan/MPV (Innova, City, Ertiga)",
+          "url": "https://images.unsplash.com/photo-1771197952309-49319d7730d9?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHw0fHx3aGl0ZSUyMHN1diUyMGNhcnxlbnwwfHx8fDE3NzEyNTI1Nzd8MA&ixlib=rb-4.1.0&q=85",
+          "alt": "Luxury Sedan/MPV"
+        },
+        {
+          "category": "Luxury (Fortuner)",
+          "url": "https://images.unsplash.com/photo-1615836426606-c16238a6bfb4?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2NzV8MHwxfHNlYXJjaHwyfHx3aGl0ZSUyMHN1diUyMGNhcnxlbnwwfHx8fDE3NzEyNTI1Nzd8MA&ixlib=rb-4.1.0&q=85",
+          "alt": "Luxury Vehicle"
+        }
+      ],
+      "testimonials": [
+        "https://images.unsplash.com/photo-1758521961632-24056f441db8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwzfHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1602003355524-184dbe828b18?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHw0fHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85",
+        "https://images.unsplash.com/photo-1561065475-b0dc9f889ee7?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzZ8MHwxfHNlYXJjaHwyfHxoYXBweSUyMHBlb3BsZSUyMGRyaXZpbmclMjBjYXJ8ZW58MHx8fHwxNzcxMjUyNTc5fDA&ixlib=rb-4.1.0&q=85"
+      ]
+    }
+  },
+  "car_data": [
+    { "name": "Maruti Wagon R", "type": "Hatchback", "price": "₹999", "passengers": 4, "transmission": "Manual", "image_category": "Hatchback" },
+    { "name": "Maruti Swift", "type": "Hatchback", "price": "₹1199", "passengers": 4, "transmission": "Manual", "image_category": "Hatchback" },
+    { "name": "Maruti Baleno", "type": "Premium Hatch", "price": "₹1299", "passengers": 5, "transmission": "Automatic", "image_category": "Hatchback" },
+    { "name": "Hyundai i20", "type": "Premium Hatch", "price": "₹1299", "passengers": 5, "transmission": "Automatic", "image_category": "Hatchback" },
+    { "name": "Maruti Brezza", "type": "Compact SUV", "price": "₹1499", "passengers": 5, "transmission": "Manual", "image_category": "SUV" },
+    { "name": "Maruti Ertiga", "type": "MPV", "price": "₹1699", "passengers": 7, "transmission": "Manual", "image_category": "Sedan/MPV" },
+    { "name": "Kia Seltos", "type": "SUV", "price": "₹1899", "passengers": 5, "transmission": "Automatic", "image_category": "SUV" },
+    { "name": "Hyundai Creta", "type": "SUV", "price": "₹1899", "passengers": 5, "transmission": "Automatic", "image_category": "SUV" },
+    { "name": "Mahindra Thar 4x4", "type": "Jeep", "price": "₹2499", "passengers": 4, "transmission": "Automatic", "image_category": "Jeep" },
+    { "name": "Open Jeep (Modified)", "type": "Jeep", "price": "₹2199", "passengers": 4, "transmission": "Manual", "image_category": "Jeep" },
+    { "name": "Honda City", "type": "Sedan", "price": "₹1599", "passengers": 5, "transmission": "Automatic", "image_category": "Sedan/MPV" },
+    { "name": "Toyota Innova Crysta", "type": "MPV", "price": "₹2499", "passengers": 7, "transmission": "Automatic", "image_category": "Sedan/MPV" },
+    { "name": "Toyota Fortuner", "type": "Luxury SUV", "price": "₹4999", "passengers": 7, "transmission": "Automatic", "image_category": "Luxury" }
+  ],
+  "universal_guidelines": {
+    "accessibility": "Ensure text contrast ratio of 4.5:1. All images must have alt text. Interactive elements must be keyboard focusable.",
+    "testing": "All interactive elements (buttons, links, inputs) MUST have a data-testid attribute in kebab-case (e.g., 'book-now-button', 'car-card-thar').",
+    "motion": "Use smooth transitions (duration-300 ease-in-out) for hover states. No heavy parallax on mobile. Use simple fade-in for section entry.",
+    "responsive": "Mobile-first. Stack columns on mobile, 2 cols on tablet, 3-4 on desktop. Touch targets min 44px."
+  },
+  "instructions_to_main_agent": [
+    "Build a single-page React app (App.js) with smooth scroll sections.",
+    "Use Tailwind for all styling. Avoid custom CSS unless necessary for animations.",
+    "Use Lucide React for icons.",
+    "Mock the booking flow: Clicking 'Book' opens WhatsApp with a pre-filled message: 'Hi Big Wheels, I want to book [Car Name] for dates...'.",
+    "Implement the Sticky Header that changes style on scroll (transparent to white/shadow).",
+    "Ensure the 'Car Listing' section filters or sorts as requested (Low to High Price default)."
+  ]
+}
