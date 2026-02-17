@@ -120,6 +120,12 @@ a {
     color: var(--color-text-primary);
 }
 
+.logo-img {
+    height: 45px;
+    width: auto;
+    object-fit: contain;
+}
+
 .logo i {
     color: var(--color-primary);
     font-size: 1.75rem;
@@ -1004,6 +1010,11 @@ a {
 .footer-brand .logo {
     margin-bottom: 16px;
     color: white;
+}
+
+.footer-brand .logo-img.footer-logo {
+    height: 50px;
+    filter: brightness(1.1);
 }
 
 .footer-brand .logo i {
