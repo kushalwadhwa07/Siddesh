@@ -303,15 +303,16 @@ a {
 }
 
 .btn-outline-white {
-    background: rgba(255, 255, 255, 0.15);
-    border: 2px solid rgba(255, 255, 255, 0.8);
-    color: white;
-    backdrop-filter: blur(10px);
+    background: white;
+    border: 2px solid white;
+    color: var(--color-text-primary);
+    box-shadow: var(--shadow-md);
 }
 
 .btn-outline-white:hover {
-    background: white;
+    background: var(--color-bg-tertiary);
     color: var(--color-text-primary);
+    transform: translateY(-2px);
 }
 
 .btn-white {
@@ -1122,6 +1123,21 @@ a {
 .footer-bottom p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.875rem;
+}
+
+.footer-bottom .marketing-partner {
+    margin-top: 8px;
+    font-size: 0.8125rem;
+}
+
+.footer-bottom .marketing-partner a {
+    color: var(--color-primary);
+    font-weight: 600;
+    transition: color 0.25s ease;
+}
+
+.footer-bottom .marketing-partner a:hover {
+    color: #FF8C5A;
 }
 
 /* ============================================
