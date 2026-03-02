@@ -303,15 +303,16 @@ a {
 }
 
 .btn-outline-white {
-    background: white;
-    border: 2px solid white;
-    color: var(--color-text-primary);
+    background: var(--color-text-primary);
+    border: 2px solid var(--color-text-primary);
+    color: white;
     box-shadow: var(--shadow-md);
 }
 
 .btn-outline-white:hover {
-    background: var(--color-bg-tertiary);
-    color: var(--color-text-primary);
+    background: #2d2d42;
+    border-color: #2d2d42;
+    color: white;
     transform: translateY(-2px);
 }
 
